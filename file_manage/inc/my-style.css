@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+span.item-text
+{
+	padding-left : 10px;
+}
+
+.navbar-right
+{
+	float : right!important;
+}
+
+table tr td a
+{
+	text-decoration:none !important;
+}
+
+table tr td a:hover
+{
+	color: #333 !important;
+}
+
+div.panel > .panel-body p.footer
+{
+	text-align: center !important;
+}
+
+div.container-padding
+{
+	padding: 10px !important;
+}
+
+div.clear-top-60
+{
+	margin-top: 60px;
+}
