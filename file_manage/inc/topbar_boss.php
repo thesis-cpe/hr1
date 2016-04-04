@@ -12,15 +12,17 @@ $roww = $resultw->fetch_assoc();
 <!--BEGIN TOPBAR-->
     <div id="header-topbar-option-demo" class="page-header-topbar">
         <nav id="topbar" role="navigation" style="margin-bottom: 0;" data-step="3" class="navbar navbar-default navbar-fixed-top">
-            
-            <div class="topbar-main">
-                <div class="navbar-header">
+            <div class="navbar-header">
                 <a id="logo" href="indexv2.php" class="navbar-brand">ACQC<span style="display: none" class="logo-text-icon">µ</span></a>
-                 
             </div>
-              <a id="menu-toggle" href="#" class="hidden-xs"><i class="fa fa-list-ul "></i></a>
-          <ul class="nav navbar navbar-top-links navbar-right mbn"> 
-           
+            <div class="topbar-main">
+                <a id="menu-toggle" href="#" class="hidden-xs"><i class="fa fa-list-ul "></i></a>
+
+              <div class="navbar-header">
+                    <a id="logo" class="navbar-brand"><span style="display: none" class="logo-text-icon">µ</span></a>
+                </div> 
+                                
+                <ul class="nav navbar navbar-top-links navbar-right mbn">
                     <li class="dropdown topbar-user"><a data-hover="dropdown" href="#" class="dropdown-toggle">
                         <img src="<?php echo "$roww[employee_picture]"; ?>" alt="" class="img-responsive img-circle"/>&nbsp;<span class="hidden-xs"><?php echo "$roww[employee_name]"; ?> <?php echo "$roww[employee_lname]"; ?></span>&nbsp;<span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-user pull-right">
@@ -29,13 +31,7 @@ $roww = $resultw->fetch_assoc();
                             <li><a href="logout.php"><i class="fa fa-power-off "></i>Log Out</a></li>
                         </ul>
                     </li>
-              
-               </ul>
-            <!--  <div class="navbar-header">
-                    <a id="logo" class="navbar-brand"><span style="display: none" class="logo-text-icon">µ</span></a>
-                </div>  -->
-                                
-               
+                </ul>
             </div>
         </nav>
     </div>
@@ -54,7 +50,9 @@ else
             <div class="topbar-main">
                 <a id="menu-toggle" href="#" class="hidden-xs"><i class="fa fa-list-ul "></i></a>
                 <div class="navbar-header">
-                    <a id="logo" class="navbar-brand"> <span style="display: none" class="logo-text-icon">µ</span></a>
+                    <a id="logo" class="navbar-brand">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        บริษัท กาญจน์ บัญชีและภาษีอากร จำกัด<span style="display: none" class="logo-text-icon">µ</span></a>
                 </div>
 
                 <ul class="nav navbar navbar-top-links navbar-right mbn">

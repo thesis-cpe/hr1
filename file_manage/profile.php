@@ -126,7 +126,7 @@
 																			<th>วันที่ เวลา</th>
 																			<th>ผู้ส่ง</th>
 																			<th>ข้อความ</th>
-																			<th>ตอบกลับ/ลบ</th>
+																			<th>ตอบ/ลบ</th>
 																		</tr>
 
 														 				<?php while($arrMsnin = $qryMsnin->fetch_array()){?>	
